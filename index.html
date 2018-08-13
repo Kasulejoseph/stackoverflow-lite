@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stack Overflow-Lite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="decription" content="Most Convinient Q&A platform">
+    <meta name ="author" content="kasule joseph">
+    <meta name = "keywords" content="Q&A website, Best question and answer platform, reliable and convient Q&A platform">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="brading">
+                <h1>Stack<small>Overflow-lite</small></h1>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="search here...">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">SignUp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="register">
+        <div class="container">
+            <div class="intro">
+                <h1>jhgksv yhdsfgs</h1><p>
+                    <h3>Each month, over 50 million developers come 
+                to Stack Overflow to 
+                learn,<br> share their knowledge, and build their careers.</h3>
+                </p><p>
+                    <h3>
+                        Join the world’s largest developer community.
+                    </h3>
+                </p>
+            </div>
+            <div class="login">
+                <form>
+                        <h2>Get Started</h2>
+                    <input type="text" placeholder="Username" required><p></p>
+                    <input type="password" placeholder="password" required><p></p>
+                    <button class="button-1" type="submit">login</button><p></p>
+        
+                </form>
+            </div>
+    </section>
+
+    <section id="question">
+        <div class="container">
+
+            <!-- open the modal -->
+            <a href="#" id="myBtn">What is your question?</a>
+            <!-- the modal -->
+            <div id="mymodal" class="modal">
+                <!-- modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <textarea rows="5" cols="100" >question</textarea>
+                    <p><button>Add Question</button></p>
+                </div>
+            </div>
+          
+
+
+        </div>
+    </section>
+    <section id="box">
+        <div class="container">
+            <h1>All Questions</h1>
+            <ul>
+            <li class="recent"><p><a href="recent.html">Recent Questions</a></p></li>
+            <li><span class="popular"><a href="popular.html">Popular Questions</a></span></li>
+        </ul><p></p>
+        </div>
+    </section>
+    <section id="qn_tables">
+    <div class="container">
+        <table class="qn_tb">
+            <tr>
+                <th>Copying a cell from a selected range of columns to a specific column while keeping the same row</th>
+            </tr>
+            <tr>
+            <td><a href="answers.html"><label>6</label> Answers</a></td>
+        </tr></table>
+        <table>
+        <tr>
+            <th>how to capture the spaces in regular expression?</th>
+        </tr>
+        <tr>
+            <td><a href="#"><label>4</label> Answers</a></td>
+        </tr></table>
+        <table>
+        <tr>
+            <th>how to capture the spaces in regular expression?</th>
+        </tr>
+        <tr>
+            <td><a href="#"><label>2</label> Answers</a></td>
+        </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Trying to select a variable from within a ForEach loop, and if that variable is less than a certain number, display another variable as Red</th>
+            </tr>
+            <tr>
+                <td><a href="#"><label>0</label> Answers</a></td>
+            </tr>
+            </table>
+    </div>
+</section>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
