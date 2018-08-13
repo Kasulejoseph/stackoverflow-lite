@@ -64,6 +64,25 @@ header input{
     padding: 8px;
     border-radius: 10px;
 }
+/* plus img */
+label img {
+    height: 20px;
+}
+#myBtn{
+	color: white;
+    background: hsl(123, 69%, 41%);
+    height: 30px;
+    width: auto;
+	cursor: pointer;
+	position: relative;
+	font-family: sans-serif;
+    border: none;
+    outline:none;
+	font-size: 18px;
+    border-radius: 5px;
+float: right;
+}
+
 
 /* modal background */
 .modal{
@@ -250,6 +269,15 @@ button#myBtn2{
     outline:none;
 	font-size: 18px;
     border-radius: 5px;
+}
+/* footer */
+footer{
+    height: 70px;
+    padding: 10px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: #382823;
+    text-align: center;
 }
 
 

@@ -49,6 +49,11 @@ header a:hover{
     color: #0fa70a;
     font-weight: bold;
 }
+
+/* plus img */
+label img {
+    height: 20px;
+}
 /* search */
 header .search{
     top: 20%;
@@ -212,8 +217,15 @@ button{
     height: 200px;
     color: #3535c0;
 }
-
-
+/* footer */
+footer{
+    height: 70px;
+    padding: 10px;
+    margin-top: 50px;
+    color: #fff;
+    background-color: #382823;
+    text-align: center;
+}
 
 /*media */
 @media(max-width:768px){
